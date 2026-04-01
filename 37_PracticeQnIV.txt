@@ -4,6 +4,9 @@
 -- Program: Practice Questions - IV
 -- 
 
+-- Employee Schema
+db.createCollection("Employee")
+
 -- Q1. Insert a single employee document.
 db.Employee.insertOne({empid:101,name:"Nihal",department:"IT",salary:75000})
 
